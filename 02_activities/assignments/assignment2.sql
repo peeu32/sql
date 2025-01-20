@@ -126,7 +126,7 @@ Second, coalesce null values to 0 (if you don't have null values, figure out how
 Third, SET current_quantity = (...your select statement...), remembering that WHERE can only accommodate one column. 
 Finally, make sure you have a WHERE statement to update the right row, 
 	you'll need to use product_units.product_id to refer to the correct row within the product_units table. 
-When you have all of these components, you can run the update statement. */
+When you have all of these components, you can run the update statement. */.
 
 
 
